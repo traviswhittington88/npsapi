@@ -9,9 +9,9 @@ function displayResults(responseJson,limit){
   
     $("#js-results-list").empty();
     for(let i= 0; i < limit; i++){
-    $("#js-results-list").append(`<li><h3>${responseJson.data[i].fullName}HI<h3>
-      <p>${responseJson.data[i].description}</p>
-      <a href="${responseJson.data[i].url}">${responseJson.data[i].url}</a></li>`);
+    $("#js-results-list").append(`<li><h3>${responseJson.data[i].fullName}</h3>
+      <p class="description">${responseJson.data[i].description}</p>
+      <a class="url" href="${responseJson.data[i].url}">${responseJson.data[i].url}</a></li>`);
     }
     console.log('results were appended');
     $('#js-results').removeClass("hidden");
