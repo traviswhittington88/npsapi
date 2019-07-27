@@ -1,7 +1,5 @@
-'use strict';
+'use strict’;
 
-const api_key = "diLRSBmYMhumJk0BLXyeOR64vwdmGnvPPgwtjCzh";
-const google_api_key= "AIzaSyAIZy1A-yntbrNRZAh31hjzL7Xy5tzZ5z4";
 const base_url= "https://developer.nps.gov/api/v1/parks";
 const google_base_url = "https://maps.googleapis.com/maps/api/geocode/json";
 
